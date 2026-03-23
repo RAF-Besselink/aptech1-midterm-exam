@@ -5,13 +5,10 @@ const NavBar = () => {
     return (
         <nav style={styles.nav}>
             <Link style={styles.link} to ="/home">Home</Link>
-            
             <Link style={styles.link} to ="/signup">Signup</Link>
-               
             <Link style={styles.link} to ="/success">Success</Link>
-               
             <Link style={styles.link} to ="/profile">Profile</Link>
-               
+    
         </nav>
     );
 }
